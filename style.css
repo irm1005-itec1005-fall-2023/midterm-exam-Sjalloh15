@@ -30,8 +30,54 @@
 
 html {
   font-size: 1.0rem;
+  padding-left: 3rem;
+  background-color:bisque;
+  
+}
+
+.img{
+width: 30px;
+margin: 10px;
+padding-top: 2rem;
+
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 1,5rem;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.price {
+  color: black;
+  font-size: 40px;
+
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #452020;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: ;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
